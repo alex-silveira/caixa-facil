@@ -25,9 +25,7 @@ Crud simples e inserção de dados em massa com vue e aspnet core api
 
    <code>dotnet ef database update</code> utilizar depois do passo **2** com o banco configurado
 
-2. 
-
-   Alterar o arquivo appsettings.json e mudar o Context para suas configurações de banco de dados
+2. Alterar o arquivo appsettings.json e mudar o Context para suas configurações de banco de dados
 
    ```json
    "ConnectionStrings": { "Context":"Server=localhost;Database=nomedobanco;Trusted_Connection=True;MultipleActiveResultSets=true;User ID=nomedeusuario;Password=senhadobanco;Integrated Security=False"
